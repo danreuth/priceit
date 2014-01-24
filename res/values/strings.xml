@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PriceIT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="submit">Submit</string>
+    <string name="login">Temporary Login Bypass</string>
+    <string name="registerNewUser">Register New User</string>
+    <string name="input_field_error">Some fields have errors!</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Enter User Name</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="name_label">Name:</string>
+    <string name="address_label_editText">Address:</string>
+    <string name="street_label_editText">Street:</string>
+    <string name="city_label_editText">City:</string>
+    <string name="state_label_editText">State:</string>
+    <string name="postalCode_label_editText">Postal Code:</string>
+    <string name="image_dialog_title">Input Product Image</string>
+    <string name="image_dialog_promt">Please select the source of the product image</string>
+    <string name="image_select_button_camera">Camera</string>
+    <string name="image_select_button_gallery">Gallery</string>
+    <string name="title_activity_spice_manager">SpiceManagerActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_abstract_spice_manager">AbstractSpiceManagerActivity</string>
+    <string name="edit_manufacturer_text">Edit Manufacturer</string>
+    <string name="edit_product_text">Edit Product</string>
+    <string name="edit_store_text">Edit Store</string>
+    <string name="title_activity_edit_manufacturer">EditManufacturerActivity</string>
+    <string name="title_activity_edit_product">EditProductActivity</string>
+    <string name="select_manufacturer_textView">Select an Manufacturer</string>
+    <string name="select_product_textView">Select a Product to Edit</string>
+    <string name="select_store_textView">Select a Store to Edit</string>
+    <string name="select_manufacturer_button">Select</string>
+    <string name="select_product_button">Select</string>
+    <string name="select_store_button">Select</string>
+    <string name="delete_manufacturer_textView">Delete Manufacturer</string>
+    <string name="title_activity_delete_manufacturer">DeleteManufacturer</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <Button 
+        android:id="@+id/menu_product_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainMenu_create_product"/>
+    <Button 
+        android:id="@+id/menu_store_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainMenu_create_store"/>
+    <Button 
+        android:id="@+id/menu_manufateur_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainMenu_create_manufacturer"/>
+    <Button 
+        android:id="@+id/menu_price_point_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainMenu_create_price_point"/>
+    <Button
+        android:id="@+id/menu_edit_manufacturer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_manufacturer_text" />
+     <Button
+        android:id="@+id/menu_edit_product_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_product_text" />    
+        
+     <Button
+        android:id="@+id/menu_edit_store_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_store_text" /> 
+    </LinearLayout>
+    
+
+</ScrollView>

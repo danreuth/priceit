@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="manufacturer_label">Manufacturer:</string>
+    <string name="manufacturer_name_hint">Enter manufacturer name</string>
+    <string name="manufacturer_create_headline">MAKE NEW MANUFACTURER</string>
+    
+</resources>

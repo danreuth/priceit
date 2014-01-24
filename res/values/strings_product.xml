@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="product_create_headline">Create a Product</string>
+    <string name="product_name_hint">Enter Product Name</string>
+    <string name="product_code_hint">Enter UPC or PLC</string>
+    <string name="product_code_scan">Scan</string>
+    <string name="product_manufacture_name_hint">Enter Manufactor info</string>
+    <string name="product_image_hint">Enter Product Image</string>
+    <string name="product_type_hint">Enter Product Type</string>
+    <string name="product_description_hint">Enter Product Description</string>
+    <string name="product_code_label">PLU/UPC:</string>
+    <string name="product_image_label">Image:</string>
+    <string name="product_type_label">Type:</string>
+    <string name="product_description_label">Description:</string>
+
+</resources>

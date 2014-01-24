@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="store_name_hint">Enter store name</string>
+    <string name="store_name">Store Name</string>
+    
+</resources>

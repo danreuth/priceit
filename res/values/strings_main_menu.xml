@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="mainMenu_create_product">MAKE NEW PRODUCT</string>
+    <string name="mainMenu_create_store">MAKE NEW STORE</string>
+    <string name="mainMenu_create_manufacturer">MAKE NEW MANUFACTURER</string>
+    <string name="mainMenu_create_price_point">MAKE NEW PRICE POINT</string>
+    
+</resources>

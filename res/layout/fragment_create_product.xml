@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:orientation="vertical"
+    android:stretchMode="columnWidth"
+     >
+
+    <!-- Column Zero, labels -->
+    
+    <TextView
+        android:layout_column="0"
+        android:layout_row="0"
+        android:text="@string/name_label" />
+    
+    <TextView 
+        android:text="@string/product_code_label"
+        android:layout_column="0"
+        android:layout_row="1"
+        />  
+          
+    <TextView 
+        android:text="@string/manufacturer_label"
+        android:layout_column="0"
+        android:layout_row="2"
+        />
+    
+    <TextView 
+        android:text="@string/product_image_label"
+        android:layout_column="0"
+        android:layout_row="3"
+        /> 
+        
+    <TextView 
+        android:text="@string/product_type_label"
+        android:layout_column="0"
+        android:layout_row="4"
+        />
+
+    <TextView 
+        android:text="@string/product_description_label"
+        android:layout_column="0"
+        android:layout_row="5"
+        />
+    
+    
+    <!-- Column One, edit texts -->
+        
+    <EditText
+        android:id="@+id/productNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:hint="@string/product_name_hint"
+        android:maxLength="100"
+        android:inputType="text" >
+        
+        <requestFocus />
+    </EditText>
+
+    
+    
+    
+        
+        
+    <EditText
+        android:id="@+id/productCodeEditText"
+        android:layout_width="wrap_content"
+        android:layout_column="1" 
+        android:layout_row="1"   
+        android:hint="@string/product_code_hint"
+        android:maxLength="12"
+        android:inputType="number" />
+		 
+        <requestFocus />
+ 
+    
+   
+    
+    <Button
+        android:id="@+id/code_scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_column="1"
+        android:layout_gravity="right|top"
+        android:textIsSelectable="true"
+        android:layout_row="1"
+        android:inputType="number"
+        android:text="@string/product_code_scan" />
+
+
+    <EditText
+        android:id="@+id/productManufactureEdit"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="2"
+        >
+    </EditText>
+
+    <!-- will work with image later -->
+	<ImageView 
+	    android:id="@+id/productImageView"
+	    android:layout_width="wrap_content"
+	    android:layout_column="1"
+	    android:layout_row="3"
+	    android:src="@drawable/ic_launcher"
+	    android:maxHeight="20dp"
+	    />
+    
+
+        
+    
+
+    <EditText
+        android:id="@+id/productTypeEditText"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="4"
+        android:hint="@string/product_type_hint"
+        android:maxLength="100"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/productDescriptionEditText"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="5"
+        android:hint="@string/product_description_hint"
+        android:maxLength="100"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+    
+   
+    <!-- Submit -->
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="left"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/submit" />
+
+
+</GridLayout>

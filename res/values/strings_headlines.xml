@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="create_user_headline">Create a New Account</string>
+    <string name="create_store_headline">Create a Store</string>
+    <string name="create_price_point_headline">Create a New Price Point</string>
+    <string name="date_picker_title_purchase_date">Purchase Date</string>
+    
+</resources>

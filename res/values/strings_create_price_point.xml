@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="price_point_textView_username">user</string>
+    <string name="price_point_textView_product">Product: </string>
+    <string name="price_point_textView_price">Price: </string>
+    <string name="price_point_textView_date">Date: </string>
+    <string name="price_point_textView_status">Status: </string>
+    <string name="price_point_textView_endDate">End of sale: </string>
+    <string name="price_point_textView_store">Store: </string>
+    
+    <string name="price_point_radio_button_hint_onSale">On sale</string>
+    <string name="price_point_radio_button_hint_regular">Regular price</string>
+    
+    <string name="price_point_editTextHint_product">Enter barcode or name</string>
+    <string name="price_point_editTextHint_price">Enter a price</string>
+    <string name="price_point_editTextHint_date">Date purchased</string>
+    <string name="price_point_editTextHint_endDate">Last day of the sale</string>
+    
+</resources>
